@@ -1,0 +1,8 @@
+[
+	"C:\\Program Files\\gauge\\bin\\gauge.exe",
+	"run",
+	"--machine-readable",
+	"--hide-suggestion",
+	"--simple-console",
+	"C:/Users/testinium/IdeaProjects/HepsiBurada/specs/Scanerio.spec:4"
+]

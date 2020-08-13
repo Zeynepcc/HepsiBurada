@@ -1,0 +1,36 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 746milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 746"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 49316"}
+{"logLevel":"info","message":"Listening on port:49316"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'LoginSteps.EnteredPassName' and 'LoginSteps.EnteredPassName'"}
+{"logLevel":"debug","message":"Found {} Password is entered in current project scope."}
+{"logLevel":"debug","message":"Comparing 'LoginSteps.EnterUsername' and 'LoginSteps.EnterUsername'"}
+{"logLevel":"debug","message":"Found {} Username is entered in current project scope."}
+{"logLevel":"debug","message":"Comparing 'LoginSteps.ClickButton' and 'LoginSteps.ClickButton'"}
+{"logLevel":"debug","message":"Found Login button is clicked in current project scope."}
+{"logLevel":"debug","message":"Comparing 'LoginSteps.EntryClick' and 'LoginSteps.EntryClick'"}
+{"logLevel":"debug","message":"Found Entry Button is clicked in current project scope."}
+{"logLevel":"debug","message":"Comparing 'HomeSteps.OpenPage' and 'HomeSteps.OpenPage'"}
+{"logLevel":"debug","message":"Found Open WebSite in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tLogin button is clicked : public void ClickButton() throws InterruptedException"}
+{"logLevel":"debug","message":"\tEntry Button is clicked : public void EntryClick()"}
+{"logLevel":"debug","message":"\t{} Password is entered : public void EnteredPassName(String password)"}
+{"logLevel":"debug","message":"\t{} Username is entered : public void EnterUsername(String username)"}
+{"logLevel":"debug","message":"\tOpen WebSite : public void OpenPage()"}
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 15729
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Ağu 12, 2020 5:53:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Open WebSite' using 'class HomeSteps.OpenPage"}
+{"logLevel":"debug","message":"Executing 'Login button is clicked' using 'class LoginSteps.ClickButton"}
+{"logLevel":"debug","message":"Executing '{} Username is entered' using 'class LoginSteps.EnterUsername"}
+{"logLevel":"debug","message":"Executing '{} Password is entered' using 'class LoginSteps.EnteredPassName"}
+{"logLevel":"debug","message":"Executing 'Entry Button is clicked' using 'class LoginSteps.EntryClick"}

@@ -1,0 +1,15 @@
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'LoginSteps.verifyVowelsCountInMultipleWords' and 'LoginSteps.verifyVowelsCountInMultipleWords'"}
+{"logLevel":"debug","message":"Found Almost all words have vowels {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'LoginSteps.setLanguageVowels' and 'LoginSteps.setLanguageVowels'"}
+{"logLevel":"debug","message":"Found Vowels in English language are {}. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'LoginSteps.verifyVowelsCountInWord' and 'LoginSteps.verifyVowelsCountInWord'"}
+{"logLevel":"debug","message":"Found The word {} has {} vowels. in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps: "}
+{"logLevel":"debug","message":"\tThe word {} has {} vowels. : public void verifyVowelsCountInWord(String word, ınt expectedCount)"}
+{"logLevel":"debug","message":"\tAlmost all words have vowels {} : public void verifyVowelsCountInMultipleWords(Table wordsTable)"}
+{"logLevel":"debug","message":"\tVowels in English language are {}. : public void setLanguageVowels(String vowelString)"}
+{"logLevel":"info","message":"Listening on port:58410"}
+{"logLevel":"debug","message":"Executing 'Vowels in English language are {}.' using 'class LoginSteps.setLanguageVowels"}
+{"logLevel":"debug","message":"Executing 'The word {} has {} vowels.' using 'class LoginSteps.verifyVowelsCountInWord"}

@@ -1,0 +1,3 @@
+{"logLevel":"info","message":"Listening on port:59239"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Scanning packages for hooks"}

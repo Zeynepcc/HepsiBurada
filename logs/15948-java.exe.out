@@ -1,0 +1,16 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 699milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 699"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 58926"}
+{"logLevel":"info","message":"Listening on port:58926"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'LoginSteps.Search' and 'LoginSteps.Search'"}
+{"logLevel":"debug","message":"Found Ornek {} kelimesi arandı. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'HomePageTest.Search' and 'HomePageTest.Search'"}
+{"logLevel":"debug","message":"Found {} kelimesi arandı in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tOrnek {} kelimesi arandı. : public void Search(String key)"}
+{"logLevel":"debug","message":"\t{} kelimesi arandı : public void Search()"}

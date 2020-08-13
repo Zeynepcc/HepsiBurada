@@ -1,0 +1,14 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 788milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 788"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 59688"}
+{"logLevel":"info","message":"Listening on port:59688"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'HomeSteps.OpenPage' and 'HomeSteps.OpenPage'"}
+{"logLevel":"debug","message":"Found Web sayfası açılır. in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tWeb sayfası açılır. : public void OpenPage()"}
+{"logLevel":"debug","message":"Executing 'Web sayfası açılır.' using 'class HomeSteps.OpenPage"}
